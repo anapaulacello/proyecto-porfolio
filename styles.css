@@ -196,7 +196,7 @@ h3 :hover{
     margin: 40px 14px;
     text-align: center;
     height: 400px;
-    width: 250px;
+    width: 290px;
     padding: 4px;
     box-shadow:
   2.1px 4.3px 5.3px rgba(0, 0, 0, 0.064),
@@ -207,9 +207,8 @@ h3 :hover{
 }
 
 .favorite-things__item img{
-    margin: 10px;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 250px;
     object-fit: contain;
     padding-top: 20px;
 } 
@@ -257,9 +256,10 @@ h3 :hover{
     margin: 30px;
 }
 
-.skills__cv a :hover{
+.skills .skills__cv a:hover{
     border:    #dcbeb4  2px solid;
     transition: 0.2s;
+    transform: scale(0.95);
 }
 
 /* social media */
