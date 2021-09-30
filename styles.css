@@ -44,7 +44,8 @@ header{
     font-size: 20px;
 }
 
-.nav-menu li a:hover{
+.nav-menu li a:hover,
+.nav-menu li a:visited{
     border-bottom: solid 2px white;
     transition: 0.2s;
 }
@@ -62,7 +63,13 @@ header{
 .hero-img img{
     border-radius: 500px;
     width: 250px;
-    padding: 50px;
+    margin: 50px 50px 10px 50px;
+    
+}
+
+.hero-img :hover{
+    transform: scale(0.95);
+    transition: 00.2s;
 }
 
 .hero-box{
@@ -84,6 +91,7 @@ header{
     background-color:  #5f2b2a;
     border:   #5f2b2a 2px solid;
     transition: 0.2s;
+    transform: scale(0.95);
 }
 
 
@@ -101,15 +109,22 @@ header{
 
 
 
-.parrafo1 p{
-    background-color:  #e6d4c8;
-    padding: 30px;
-     margin: 30px 50px;
+.parrafo1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)), url(./assets/img/rose-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 50px 0;
+    padding: 30px 0;
+    height: auto;
+    font-size: 18px;
+    color: white;
     text-align: center;
-    height: auto; 
 
 }
-
+.parrafo1 p{
+    padding: 40px;
+}
 
 /* .about-img{
     background-color: white;
@@ -133,6 +148,9 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    
 }
 
 .experience_item{
@@ -141,6 +159,7 @@ header{
     height: 300px;
     width: 180px;
     padding: 4px;
+    
 }
 
 .experience img{
@@ -156,33 +175,92 @@ header{
 }
 /* .favorite-things */
 
+h3{
+    letter-spacing: 3px;
+}
+
+h3 :hover{
+    color:  #8d4d42;
+}
+
 .favorite-things{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    
 }
 
 .favorite-things__item{
-    width: 40%;
-    height: 200px;
-    margin: 20px;
-    background-color: rebeccapurple;
+    margin: 40px 14px;
+    text-align: center;
+    height: 400px;
+    width: 250px;
+    padding: 4px;
+    box-shadow:
+  2.1px 4.3px 5.3px rgba(0, 0, 0, 0.064),
+  6.9px 14.3px 17.9px rgba(0, 0, 0, 0.088),
+  31px 64px 80px rgba(0, 0, 0, 0.14)
+;
+
+}
 
 .favorite-things__item img{
     margin: 10px;
-    height: 83%;
-    width: 96%;
+    height: 100%;
+    width: 100%;
     object-fit: contain;
     padding-top: 20px;
+} 
+
+.favorite-things__item :hover{
+    transform: scale(0.95);
+    transition: 00.2s;
+}
+
+/* music */
+
+.skills{
+    background-image:linear-gradient(rgba(170, 170, 170, 0.795),rgba(0, 0, 0, 0.80)), url(./assets/img/rose-wallpaper.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    padding: 50px 30px;
+}
+
+
+.skills__container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px auto;
+}
+
+.skills ul li img{
+    width: 50px;
+}
+
+.skills__cv a{
+    color: white;
+    border:  white 2px solid;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+    margin: 30px;
+}
+
+.skills__cv a :hover{
+    border:    #dcbeb4  2px solid;
+    transition: 0.2s;
 }
 
 /* social media */
 
-.social-media{
-    height: 70vh;
-    background-image: url(./assets/img/jujutsu-kaise-social-media.jpg);
-}
-
-.social-media h2{
-    color: white;
-}
