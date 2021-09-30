@@ -111,7 +111,6 @@ header{
 }
 
 
-
 /* .about-img{
     background-color: white;
     padding: 50px;
@@ -132,10 +131,16 @@ header{
 
 .experience{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 50px auto;
+    justify-content: center;
+}
+
+.experience_item{
+    margin: 14px;
+    text-align: center;
+    height: 300px;
+    width: 180px;
+    padding: 4px;
 }
 
 .experience img{
@@ -148,6 +153,27 @@ header{
 .experience-programing,
 .experience-sales{
     width: 30%;
+}
+/* .favorite-things */
+
+.favorite-things{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.favorite-things__item{
+    width: 40%;
+    height: 200px;
+    margin: 20px;
+    background-color: rebeccapurple;
+
+.favorite-things__item img{
+    margin: 10px;
+    height: 83%;
+    width: 96%;
+    object-fit: contain;
+    padding-top: 20px;
 }
 
 /* social media */
