@@ -22,7 +22,7 @@ h2::after{
 }
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)), url(./assets/img/rose-wallpaper.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)), url("https://imgur.com/SF3IyLv.jpg");
     height: 100vh;
     background-attachment: fixed;
 }
@@ -209,7 +209,7 @@ h3 :hover{
 /* SKILLS */
 
 .skills{
-    background-image: linear-gradient(rgb(211 211 211 / 64%),#ac7964), url(./assets/img/rose-wallpaper.jpg);
+    background-image: linear-gradient(rgb(211 211 211 / 64%),#ac7964), url(https://imgur.com/SF3IyLv.jpg);
     height: auto;
     background-size: cover;
     background-position: center;
