@@ -201,7 +201,7 @@ h3 :hover{
     padding-top: 20px;
 } 
 
-.favorite-things__item :hover{
+.favorite-things__item img:hover{
     transform: scale(0.95);
     transition: 00.2s;
 }
@@ -209,7 +209,7 @@ h3 :hover{
 /* SKILLS */
 
 .skills{
-    background-image:linear-gradient(rgba(170, 170, 170, 0.795),rgba(0, 0, 0, 0.80)), url(./assets/img/rose-wallpaper.jpg);
+    background-image: linear-gradient(rgb(211 211 211 / 64%),#ac7964), url(./assets/img/rose-wallpaper.jpg);
     height: auto;
     background-size: cover;
     background-position: center;
@@ -217,9 +217,10 @@ h3 :hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0;
+    margin: 90px 0 0 0;
     padding: 50px 30px;
 }
+
 
 
 .skills__container {
@@ -239,9 +240,13 @@ h3 :hover{
     width: 50px;
 }
 
+.cv{
+    padding-bottom: 40px;
+}
+
 .skills__cv a{
-    color: white;
-    border:  white 2px solid;
+    color: black;
+    border:  black 2px solid;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 200px;
@@ -249,20 +254,31 @@ h3 :hover{
 }
 
 .skills__cv a:hover{
-    background-color:  #c19586;
-    border:   #c19586 2px solid;
-    transition: 0.2s;
+    /* background-color:   #22090c; */
+    color: #22090c ;
+    font-weight: bolder;
+    border:  #22090c 3px solid;
     transform: scale(0.95);
+    transition: 0.2s;
+    
+}
+
+/* otra cosa */
+
+
+.otracosa{
+
+    margin: 70px auto;
 }
 
 /* footer */
 
 footer{
-    background-color:   #ac7964;
+    background-color:   #a97e70;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
 }
 
 .social-media__item{
