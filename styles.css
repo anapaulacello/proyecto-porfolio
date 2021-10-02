@@ -109,10 +109,7 @@ header{
     align-items: center;
 }
 
-
-
-
-.parrafo1 {
+.about__paragraph {
     background-color:  #c19586;
     background-size: cover;
     background-position: center;
@@ -124,7 +121,7 @@ header{
     width: 67%;
 
 }
-.parrafo1 p{
+.about__paragraph p{
     padding: 40px;
 }
 
@@ -140,7 +137,7 @@ header{
     
 }
 
-.experience_item{
+.experience__item{
     margin: 14px;
     text-align: center;
     height: 300px;
@@ -149,16 +146,10 @@ header{
     
 }
 
-.experience img{
+.experience__item img{
     margin: 50px;
     width: 40px;
     height: 40px;
-}
-
-.experience-music,
-.experience-programing,
-.experience-sales{
-    width: 30%;
 }
 
 /* .favorite-things */
@@ -171,7 +162,7 @@ h3 :hover{
     color:  #8d4d42;
 }
 
-.favorite-things{
+.hobbies__container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -180,7 +171,7 @@ h3 :hover{
     
 }
 
-.favorite-things__item{
+.hobbies__item{
     margin: 40px 14px;
     text-align: center;
     height: 400px;
@@ -194,14 +185,14 @@ h3 :hover{
 
 }
 
-.favorite-things__item img{
+.hobbies__item img{
     height: auto;
     width: 250px;
     object-fit: contain;
     padding-top: 20px;
 } 
 
-.favorite-things__item img:hover{
+.hobbies__item img:hover{
     transform: scale(0.95);
     transition: 00.2s;
 }
