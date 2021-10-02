@@ -158,9 +158,6 @@ h3{
     letter-spacing: 3px;
 }
 
-h3 :hover{
-    color:  #8d4d42;
-}
 
 .hobbies__container{
     display: flex;
