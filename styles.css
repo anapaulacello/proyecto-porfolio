@@ -97,7 +97,7 @@ header{
 }
 
 
-/* about sectio */
+/* about section */
 
 /* .about-container{
     display: flex;
@@ -152,7 +152,7 @@ header{
     height: 40px;
 }
 
-/* .favorite-things */
+/* hobbies */
 
 h3{
     letter-spacing: 3px;
@@ -254,13 +254,6 @@ h3 :hover{
     
 }
 
-/* otra cosa */
-
-
-.otracosa{
-
-    margin: 70px auto;
-}
 
 /* footer */
 
