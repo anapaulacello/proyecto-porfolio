@@ -22,7 +22,7 @@ h2::after{
 }
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)), url("https://imgur.com/SF3IyLv.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)), url("https://imgur.com/cqaE8iS.jpg");
     height: 100vh;
     background-attachment: fixed;
 }
@@ -72,7 +72,7 @@ header{
     align-items: center;
     flex-direction: column;
     padding: 20px 0;
-    animation:animate__fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation:animate__fadeIn; 
     animation-duration: 3s;
 
 }
@@ -208,7 +208,7 @@ h3{
 /* SKILLS */
 
 .skills{
-    background-image: linear-gradient(rgb(211 211 211 / 64%),#ac7964), url(https://imgur.com/SF3IyLv.jpg);
+    background-image: linear-gradient(rgb(211 211 211 / 64%),#ac7964), url("https://imgur.com/cqaE8iS.jpg");
     height: auto;
     background-size: cover;
     background-position: center;
